@@ -15,6 +15,7 @@
           <q-tab name="onsoz" label="Önsöz" no-caps />
           <q-tab name="content" label="İçindekiler" no-caps />
           <q-tab name="codes" label="Kodlar ve Sunumlar" no-caps />
+          <!-- <q-tab name="codes" label="Kodlar ve Sunumlar" no-caps /> -->
         </q-tabs>
 
         <q-separator />

@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header >
+    <q-header class="bg-white text-grey-8 q-py-xs">
       <q-toolbar>
         <q-btn
           flat
@@ -11,9 +11,22 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title>
+        <q-btn flat no-caps no-wrap class="q-ml-xs" v-if="$q.screen.gt.xs">
+          <!-- <q-icon name="save" color="red" size="28px" /> -->
+          <q-img
+            class="rounded-borders"
+            src="~assets/icons/sea_icon3.png"
+            height="28px"
+            width="28px"
+          />
+          <q-toolbar-title shrink class="text-weight-bold">
+            Sonlu Elemanlar Analizi
+          </q-toolbar-title>
+        </q-btn>
+
+        <!-- <q-toolbar-title>
           Sonlu Elemanlar Analizi
-        </q-toolbar-title>
+        </q-toolbar-title> -->
 
         <!-- <div>Quasar v{{ $q.version }}</div> -->
       </q-toolbar>

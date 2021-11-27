@@ -149,6 +149,7 @@ export default defineComponent({
 
   setup() {
     const data = reactive({
+      stars: 5,
     });
 
     const editorInit = () => {};

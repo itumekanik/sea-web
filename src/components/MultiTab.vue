@@ -158,11 +158,152 @@
                 </li>
               </ul>
             </ul>
+
+            <ul>
+              <li><b>5. </b><b>Çubuk Sistemler</b></li>
+              <ul>
+                <li><b>5.1 </b> Eksenel-Çubuk modeli</li>
+                <li><b>5.2 </b> İki boyutlu kafes çubuk modeli</li>
+                <li><b>5.3 </b> Burulma Çubuğu Modeli</li>
+                <li><b>5.4 </b> Çubuklarda eğilme problemi (kirişler)</li>
+                <li><b>5.5 </b> İki boyutlu çerçeve eleman</li>
+                <li>
+                  <b>5.6 </b> İki boyutlu çerçeve elemana farklı bir bakış açısı
+                </li>
+                <li>
+                  <b>5.7 </b> Eleman uçlarında mafsal (ing: release) olması
+                  durumu
+                </li>
+                <li>
+                  <b>5.8 </b> Eleman uçlarında Elastik Bağlantı (Redör) (ing:
+                  hinge) durumu
+                </li>
+                <li><b>5.9 </b> Eğik serbestlik durumu</li>
+                <li><b>5.10 </b> Üç boyutlu kiriş eleman</li>
+                <li><b>5.11 </b> Üç boyutlu çerçeve eleman</li>
+                <li><b>5.12 </b> Üç boyutlu çubuk çerçeve örneği</li>
+              </ul>
+            </ul>
+
+            <ul>
+              <li>
+                <b>6. </b
+                ><b>Çubuklarda Keyfi Geometrili Kesitlerin Burulma Rijitliği</b>
+              </li>
+              <ul>
+                <li><b>6.1 </b> Saint-Venant Burulması</li>
+                <li><b>6.2 </b> Zayıf formun elde edilmesi</li>
+                <li><b>6.3 </b> Burulma Elemanı</li>
+                <li><b>6.4 </b> Örnek uygulama (Python)</li>
+              </ul>
+            </ul>
+
+            <ul>
+              <li><b>7. </b><b>Lineer-Elastisite Teorisine Özet Bakış</b></li>
+              <ul>
+                <li><b>7.1 </b> Şekil değiştirme</li>
+                <li><b>7.2 </b> Gerilme</li>
+                <li><b>7.3 </b> Gerilme-Şekil değiştirme bağıntıları</li>
+                <li><b>7.4 </b> Denge denklemleri</li>
+                <li><b>7.5 </b> Sıcaklık değişimi etkileri</li>
+              </ul>
+            </ul>
+
+            <ul>
+              <li><b>8. </b><b>Üç Boyutlu Elastisite Elemanları</b></li>
+              <ul>
+                <li>
+                  <b>8.1 </b> Sekiz nodlu Tuğla Eleman fomülasyonu
+                  <ul>
+                    <li>
+                      <b>8.1.1 </b> Uzaysal koordinat dönüşümü (master-eleman)
+                    </li>
+                    <li>
+                      <b>8.1.2 </b> Eleman matris denklem takımının elde
+                      edilmesi
+                    </li>
+                    <li>
+                      <b>8.1.3 </b> Dış-sınır yüzey gerilmelerinin integre
+                      edilmesi
+                    </li>
+                    <li><b>8.1.4 </b> Örnek problem ve Python programlaması</li>
+                  </ul>
+                </li>
+                <li>
+                  <b>8.2 </b> Dört nodlu Dört-yüzlü Eleman fomülasyonu
+                  <ul>
+                    <li>
+                      <b>8.2.1 </b> Uzaysal koordinat dönüşümü (master-eleman)
+                    </li>
+                    <li><b>8.2.2 </b> Örnek problem ve Python programlaması</li>
+                  </ul>
+                </li>
+              </ul>
+            </ul>
+
+            <ul>
+              <li><b>9. </b><b>Programlama ve Sonlu Elemanlar</b></li>
+              <ul>
+                <li><b>9.1 </b> Programlamanın temel unsurları</li>
+                <li><b>9.2 </b> Nesnesel programlama ve Python</li>
+
+                <li>
+                  <b>9.3 </b> Koleksiyonlar, Gezinilebilirler, Döngüler ve
+                  Python
+                </li>
+                <li>
+                  <b>9.4 </b> Kütüphaneler ve Python
+                  <ul>
+                    <li><b>9.4.1 </b> numpy</li>
+                    <li>
+                      <b>9.4.2 </b> scipy ile seyrek matris denklem takımı
+                      çözümü
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </ul>
           </q-tab-panel>
 
           <q-tab-panel name="codes">
             <div class="text-h6">Kodlar ve Sunumlar</div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <!-- <q-btn
+              round
+              dense
+              flat
+              :ripple="false"
+              :icon="fabGithub"
+              size="19px"
+              class="q-mr-sm"
+              no-caps
+            /> -->
+            <q-item
+              clickable
+              tag="a"
+              target="_blank"
+              href="https://github.com/itumekanik/sonlu-elemanlar-analizi"
+            >
+              <q-item-section avatar>
+                <q-btn
+                  round
+                  dense
+                  flat
+                  :ripple="false"
+                  :icon="fabGithub"
+                  size="19px"
+                  class="q-mr-sm"
+                  no-caps
+                />
+              </q-item-section>
+
+              <q-item-section>
+                <q-item-label
+                  >Tüm kodları ve sunumları buraya tıklayarak
+                  indirebilirsiniz</q-item-label
+                >
+                <q-item-label caption> github.com/itumekanik/sonlu-elemanlar-analizi </q-item-label>
+              </q-item-section>
+            </q-item>
           </q-tab-panel>
         </q-tab-panels>
       </q-card>
@@ -172,6 +313,8 @@
 
 <script>
 import { defineComponent, reactive, toRefs } from 'vue';
+
+import { fabGithub } from '@quasar/extras/fontawesome-v5';
 
 export default defineComponent({
   name: 'MultiTab',
@@ -183,7 +326,7 @@ export default defineComponent({
 
     const editorInit = () => {};
 
-    return { ...toRefs(data), editorInit };
+    return { ...toRefs(data), editorInit, fabGithub };
   },
 });
 </script>

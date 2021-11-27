@@ -2,8 +2,8 @@
   "name": "book1",
   "version": "0.0.1",
   "description": "Sonlu Elemanlar",
-  "productName": "SEA",
-  "author": "Murat <murat.yilmaz@iys.org.tr>",
+  "productName": "Sonlu Elemanlar",
+  "author": "Murat <yilmazmura@itu.edu.tr>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",

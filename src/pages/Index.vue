@@ -1,7 +1,7 @@
 <template>
   <q-page class="">
     <div class="row justify-left">
-      <div class="col-xs-12 col-md-3">
+      <div class="col-xs-12 col-md-4">
         <book />
       </div>
       <div class="col-xs-12 col-md-8">
@@ -37,7 +37,7 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
-.my-card
-  width: 100%
-  max-width: 300px
+// .my-card
+//   width: 100%
+//   max-width: 500px
 </style>

@@ -17,6 +17,7 @@
       <q-separator />
 
       <q-card-actions>
+        <q-space/>
         <q-btn flat round icon="shopping_cart" />
         <q-btn flat color="primary" @click="BUY"> Satın Al </q-btn>
       </q-card-actions>
@@ -38,7 +39,7 @@ export default defineComponent({
 
     const BUY = () => {
       openURL(
-        'https://www.birsenyayinevi.com/yapi-muhendisligi-problemlerinde-sap2000-uygulamalari',
+        'https://www.birsenyayinevi.com',
         null, // in this example we don't care about the rejectFn()
 
         // this is the windowFeatures Object param:
@@ -61,5 +62,5 @@ export default defineComponent({
 <style lang="sass" scoped>
 .my-card
   width: 100%
-  max-width: 300px
+  // max-width: 600px
 </style>

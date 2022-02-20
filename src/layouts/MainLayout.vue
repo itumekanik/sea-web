@@ -32,9 +32,9 @@
       </q-toolbar>
     </q-header>
 
+    <!-- show-if-above -->
     <q-drawer
       v-model="leftDrawerOpen"
-      show-if-above
       bordered
     >
       <q-list>

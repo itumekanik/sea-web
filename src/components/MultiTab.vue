@@ -30,18 +30,18 @@
               programları kapalı birer kutu gibidir. Eğer kutunun içinde neler
               döndüğünü merak ediyorsanız, odama bir ara uğrayın, konuşalım”
               demişti. Henüz toy bir lisans öğrencisi olarak o odanın kapısını
-              çaldım ve konuşmamız, tam yirmi üç yıl aralıksız devam etti.
+              çaldım ve konuşmamız tam yirmi üç yıl aralıksız devam etti.
               Rahmetli hocamı saygı ve sevgi ile anıyorum.
             </p>
 
             <p>
-              Bu kitap, İTÜ İnşaat Fakültesinde on-iki dönem boyunca aralıksız
-              vermekte olduğum “Finite Element Methods” dersinde edinmiş olduğum
-              tecrübeler ışığında, Sonlu Elemanlar konusunun hem öğrenimini hem
-              de bir anlamda öğretimini kolaylaştırmak için okuyucuya ve kendime
-              sunmuş olduğum bir başlangıç-eser niteliğindedir. Ele alınan
-              konular itibari ile hem teorik bilgiler anlamında hem de uygulama
-              bakımından eserin doyurucu bir referans kaynak olmasını umut
+              İTÜ İnşaat Fakültesinde on iki dönem boyunca vermekte olduğum
+              “Finite Element Methods” dersinde edinmiş olduğum tecrübeler
+              ışığında hazırlanmış olan bu kitap, Sonlu Elemanlar konusunun hem
+              öğrenimini hem de öğretimini kolaylaştırmak amacıyla, okuyucuya ve
+              kendime sunmuş olduğum bir başlangıç-eser niteliğindedir. Eserin,
+              ele alınan konular itibari ile hem teorik bilgiler anlamında hem
+              de uygulama bakımından doyurucu bir referans kaynak olmasını umut
               ediyorum.
             </p>
 
@@ -50,17 +50,18 @@
               desteklerini ve bilgilerini benden esirgemeyen tüm hocalarıma,
               birlikte çalıştığım meslektaşlarıma, arkadaşlarıma, öğrencilerime
               ve aileme sonsuz teşekkürü bir borç bildiğimi belirtmek isterim.
-              Kapak tasarımını yapan Sayın Olgaç Dölek’e ve bölüm
-              başlıklarındaki figürleri hazırlayan Sayın Can Eğridere’ye de
-              katkılarından ötürü ayrıca teşekkür ederim. Kitabın okuyucunun
-              hizmetine sunulmasında katkıda bulunan yayınevi ve dağıtım
-              merkezleri yönetici ve çalışanlarına ve kitabı okuyacak olan siz
-              değerli okuyuculara sevgi, saygı ve minnetimi içtenlikle
-              sunuyorum.
+              Kapak tasarımındaki katkılarından ötürü Sayın Olgaç Dölek’e ve
+              bölüm başlıklarındaki figürleri hazırlayan Sayın Can Eğridere’ye
+              de ayrıca teşekkür ederim. Kitabın okuyucunun hizmetine
+              sunulmasını mümkün kılan; sponsor firmalar, yayınevi, matbaa ve
+              dağıtım merkezlerinin yönetici ve çalışanlarına ve tabii ki kitabı
+              okuyacak olan siz değerli okuyuculara sevgi, saygı ve minnetimi
+              içtenlikle sunuyorum.
             </p>
 
             <br />
-            MURAT YILMAZ 2021
+            <p style="text-align:right;">MURAT YILMAZ / Şubat 2022</p>
+
           </q-tab-panel>
 
           <q-tab-panel name="content">
@@ -302,7 +303,9 @@
                   >Tüm kodları ve sunumları buraya tıklayarak
                   indirebilirsiniz</q-item-label
                 >
-                <q-item-label caption> github.com/itumekanik/sonlu-elemanlar-analizi </q-item-label>
+                <q-item-label caption>
+                  github.com/itumekanik/sonlu-elemanlar-analizi
+                </q-item-label>
               </q-item-section>
             </q-item>
           </q-tab-panel>

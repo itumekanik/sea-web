@@ -39,7 +39,7 @@ export default defineComponent({
 
     const BUY = () => {
       openURL(
-        'https://www.birsenyayinevi.com',
+        'https://www.birsenyayinevi.com/sonlu-elemanlar-analizi-ins-muh-dr-murat-yilmaz',
         null, // in this example we don't care about the rejectFn()
 
         // this is the windowFeatures Object param:
